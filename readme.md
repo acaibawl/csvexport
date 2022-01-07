@@ -13,3 +13,12 @@ database.sqliteをdatabase直下に配置
 
 ## テーブルにデモデータを投入する
 ```php artisan db:seed```
+
+## Laravel/uiのインストール
+```composer require laravel/ui "^1.2"```
+
+## ビューファイルのスカフォールディング
+```php artisan ui vue --auth```
+
+## ※
+webpackの設定がうまくいかず、scssファイルがビルドできない為uiは崩れている
