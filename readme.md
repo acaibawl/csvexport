@@ -20,5 +20,5 @@ database.sqliteをdatabase直下に配置
 ## ビューファイルのスカフォールディング
 ```php artisan ui vue --auth```
 
-## ※
-webpackの設定がうまくいかず、scssファイルがビルドできない為uiは崩れている
+## webpackでのcss, jsのビルド
+```npm run dev```
